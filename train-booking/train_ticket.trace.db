@@ -1,0 +1,78 @@
+2024-08-24 08:57:32.069556+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (id integer not null, email varchar(255), first_name varchar(255), last_name varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (id integer not null, email varchar(255), first_name varchar(255), last_name varchar(255), primary key (id)) [42001-224]
+2024-08-24 08:59:51.292402+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (user_id integer not null, email varchar(255), first_name varchar(255), last_name varchar(255), primary key (user_id))"; expected "identifier"; SQL statement:
+create table user (user_id integer not null, email varchar(255), first_name varchar(255), last_name varchar(255), primary key (user_id)) [42001-224]
+2024-08-24 08:59:51.303426+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists ticket add constraint FKdvt57mcco3ogsosi97odw563o foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists ticket add constraint FKdvt57mcco3ogsosi97odw563o foreign key (user_id) references user [42001-224]
+2024-08-24 09:00:31.586102+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (user_id integer not null, email varchar(255), first_name varchar(255), last_name varchar(255), primary key (user_id))"; expected "identifier"; SQL statement:
+create table user (user_id integer not null, email varchar(255), first_name varchar(255), last_name varchar(255), primary key (user_id)) [42001-224]
+2024-08-24 09:00:31.595273+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists ticket add constraint FKdvt57mcco3ogsosi97odw563o foreign key (user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists ticket add constraint FKdvt57mcco3ogsosi97odw563o foreign key (user_id) references user [42001-224]
+2024-08-24 09:02:12.833835+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (user_id integer not null, email varchar(255), first_name varchar(255), last_name varchar(255), primary key (user_id))"; expected "identifier"; SQL statement:
+create table user (user_id integer not null, email varchar(255), first_name varchar(255), last_name varchar(255), primary key (user_id)) [42001-224]
+2024-08-24 09:02:12.841834+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists ticket add constraint FK8nvar4k6awxj2y81vwyc1blff foreign key (user_user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists ticket add constraint FK8nvar4k6awxj2y81vwyc1blff foreign key (user_user_id) references user [42001-224]
+2024-08-24 09:03:13.644880+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (user_id integer not null, email varchar(255), first_name varchar(255), last_name varchar(255), primary key (user_id))"; expected "identifier"; SQL statement:
+create table user (user_id integer not null, email varchar(255), first_name varchar(255), last_name varchar(255), primary key (user_id)) [42001-224]
+2024-08-24 09:03:13.652959+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists ticket add constraint FK8nvar4k6awxj2y81vwyc1blff foreign key (user_user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists ticket add constraint FK8nvar4k6awxj2y81vwyc1blff foreign key (user_user_id) references user [42001-224]
+2024-08-24 09:05:36.793570+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+drop table if exists user cascade  [42001-224]
+2024-08-24 09:05:36.809565+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (user_id integer not null, email varchar(255), first_name varchar(255), last_name varchar(255), primary key (user_id))"; expected "identifier"; SQL statement:
+create table user (user_id integer not null, email varchar(255), first_name varchar(255), last_name varchar(255), primary key (user_id)) [42001-224]
+2024-08-24 09:05:36.810564+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists ticket add constraint FK8nvar4k6awxj2y81vwyc1blff foreign key (user_user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists ticket add constraint FK8nvar4k6awxj2y81vwyc1blff foreign key (user_user_id) references user [42001-224]
+2024-08-24 09:06:46.223455+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+drop table if exists user cascade  [42001-224]
+2024-08-24 09:06:46.241369+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (user_id integer not null, email varchar(255), first_name varchar(255), last_name varchar(255), primary key (user_id))"; expected "identifier"; SQL statement:
+create table user (user_id integer not null, email varchar(255), first_name varchar(255), last_name varchar(255), primary key (user_id)) [42001-224]
+2024-08-24 09:06:46.242369+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists ticket add constraint FK8nvar4k6awxj2y81vwyc1blff foreign key (user_user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists ticket add constraint FK8nvar4k6awxj2y81vwyc1blff foreign key (user_user_id) references user [42001-224]
+2024-08-24 09:09:16.813574+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (user_id integer not null, email varchar(255), first_name varchar(255), last_name varchar(255), primary key (user_id))"; expected "identifier"; SQL statement:
+create table user (user_id integer not null, email varchar(255), first_name varchar(255), last_name varchar(255), primary key (user_id)) [42001-224]
+2024-08-24 09:09:16.821568+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists ticket add constraint FK8nvar4k6awxj2y81vwyc1blff foreign key (user_user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists ticket add constraint FK8nvar4k6awxj2y81vwyc1blff foreign key (user_user_id) references user [42001-224]
+2024-08-24 09:12:40.089720+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+drop table if exists user cascade  [42001-224]
+2024-08-24 09:12:40.105721+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (user_id integer not null, email varchar(255), first_name varchar(255), last_name varchar(255), primary key (user_id))"; expected "identifier"; SQL statement:
+create table user (user_id integer not null, email varchar(255), first_name varchar(255), last_name varchar(255), primary key (user_id)) [42001-224]
+2024-08-24 09:12:40.106720+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists ticket add constraint FK8nvar4k6awxj2y81vwyc1blff foreign key (user_user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists ticket add constraint FK8nvar4k6awxj2y81vwyc1blff foreign key (user_user_id) references user [42001-224]
+2024-08-24 09:12:51.058654+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+drop table if exists user cascade  [42001-224]
+2024-08-24 09:12:51.074658+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (user_id integer not null, email varchar(255), first_name varchar(255), last_name varchar(255), primary key (user_id))"; expected "identifier"; SQL statement:
+create table user (user_id integer not null, email varchar(255), first_name varchar(255), last_name varchar(255), primary key (user_id)) [42001-224]
+2024-08-24 09:12:51.076657+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists ticket add constraint FK8nvar4k6awxj2y81vwyc1blff foreign key (user_user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists ticket add constraint FK8nvar4k6awxj2y81vwyc1blff foreign key (user_user_id) references user [42001-224]
+2024-08-24 09:22:13.618738+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+drop table if exists user cascade  [42001-224]
+2024-08-24 09:22:13.633755+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (user_id integer not null, email varchar(255), first_name varchar(255), last_name varchar(255), primary key (user_id))"; expected "identifier"; SQL statement:
+create table user (user_id integer not null, email varchar(255), first_name varchar(255), last_name varchar(255), primary key (user_id)) [42001-224]
+2024-08-24 09:22:13.634720+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists ticket add constraint FK8nvar4k6awxj2y81vwyc1blff foreign key (user_user_id) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists ticket add constraint FK8nvar4k6awxj2y81vwyc1blff foreign key (user_user_id) references user [42001-224]
